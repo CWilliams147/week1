@@ -1,0 +1,5 @@
+print('Fill in the blanks below:')
+print("___(name)___'s favorite subject in school is ___(subject)___.")
+name = input('Enter a Name: ')
+subject = input('Enter a subject: ')
+print("%s's favorite subject in school is %s." % (name, subject) )  
